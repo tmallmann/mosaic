@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mosaic Puzzle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="app">
+        <div class="top-bar">
+            <select id="dificuldade">
+                <option value="Fácil">Fácil</option>
+                <option value="Médio" selected>Médio</option>
+                <option value="Difícil">Difícil</option>
+            </select>
+
+            <button id="novoJogo">Novo Jogo</button>
+
+            <div id="timer">00:00</div>
+        </div>
+
+        <div id="tabuleiro"></div>
+
+        <div id="resultado"></div>
+
+        <div class="legenda">
+            <span>🖱️ Clique esquerdo: preto</span>
+            <span>🖱️ Clique direito: branco</span>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
