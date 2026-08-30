@@ -9,7 +9,6 @@ Use a lógica para descobrir a combinação correta e completar o mosaico.
 - 🎯 3 níveis de dificuldade.
 - 🎯 Contador de tempo.
 - 🎯 Suporte para clicar e arrastar.
-- 🎯 Suporte para mobile.
 
 https://tmallmann.github.io/mosaic/
 
@@ -18,4 +17,5 @@ https://tmallmann.github.io/mosaic/
 Implementar:<br> 
 · Grids personalizados;
 · Histórico e estatísticas;
+· Suporte para mobile;
 </sub>
